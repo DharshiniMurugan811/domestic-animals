@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar */
+nav {
+    background: #289659;
+    color: rgb(155, 228, 167);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: rgb(155, 228, 167);
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+        pointer: cursor;
+        color: white;
+    }
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right,  #28792b, #15201a,  #28792b);   
+    color: rgb(187, 247, 183);
+    text-align: center;
+    padding: 80px 20px;
+    font-size:25px;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 12px 20px;
+    background:#25D366;
+    color:white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+/* Sections */
+section {
+        background-color:#28792b ;  
+        padding-top: 4%;
+        padding-bottom: 4%;
+        justify-content: space-evenly;
+        color: rgb(187, 247, 183);
+        font-size: 20px;
+        padding-bottom: 0%;
+    .five{
+        margin-left: 250px;
+        font-size: 20px;
+        font-weight: bold;
+        justify-content: space-between;
+    }
+}
+
+/* Animals Section */
+.title{   
+    background: linear-gradient(to right,  #28792b, #15201a,  #28792b);
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.animals{
+        background-color:#28792b ;  
+        justify-content: space-evenly;
+        color: rgb(187, 247, 183);
+        font-size: 20px; 
+        padding-bottom: 0%;   
+}
+
+.animal-container {
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    justify-content: center;
+    gap: 30px;
+    margin: 40px;
+    margin-left: 40px;
+    padding: 3%;
+    padding-bottom: 4%;
+}
+.card {
+    background: linear-gradient(to right, #15201a, #28792b, #15201a);
+    width: 300px;
+    height: 270px;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.3s ease;
+    padding-bottom: 3%;
+    
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Hover Effect */
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Contact */
+.contact {
+    background: linear-gradient(to right,  #28792b, #15201a,  #28792b);
+    text-align: center;
+    padding: 3%;
+    
+}
+
+/* Footer */
+footer {
+    background-color:#28792b ; 
+    color: rgb(155, 228, 167);
+    text-align: center;
+    padding: 15px;    
+}
+
+@media (max-width: 500px){
+    
+}
